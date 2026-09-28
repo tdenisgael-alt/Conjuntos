@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones con Conjuntos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>Operaciones con Conjuntos</h1>
+
+        <p>Ingrese los números separados por comas.</p>
+
+        <div class="campo">
+            <label>Conjunto 1</label>
+            <input type="text" id="conjunto1" placeholder="Ejemplo: 8, 3, 11, 4">
+        </div>
+
+        <div class="campo">
+            <label>Conjunto 2</label>
+            <input type="text" id="conjunto2" placeholder="Ejemplo: 2, 9, 7, 10">
+        </div>
+
+        <div class="campo">
+            <label>Conjunto 3</label>
+            <input type="text" id="conjunto3" placeholder="Ejemplo: 6, 5, 12, 13">
+        </div>
+
+        <button onclick="procesarConjuntos()">Procesar conjuntos</button>
+
+        <div id="resultados" class="resultados">
+
+            <div class="resultado">
+                <h3>Impares</h3>
+                <p id="impares">-</p>
+            </div>
+
+            <div class="resultado">
+                <h3>Pares</h3>
+                <p id="pares">-</p>
+            </div>
+
+            <div class="resultado">
+                <h3>Números primos</h3>
+                <p id="primos">-</p>
+            </div>
+
+            <div class="resultado">
+                <h3>Ordenados de menor a mayor</h3>
+                <p id="ordenados">-</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
